@@ -12,6 +12,7 @@
 !.gitignore
 !.gitattributes
 !README.md
+!ARCHITECTURE.md
 !MyProject4.uproject
 
 # ---- Allow ALL C++ source code ----
