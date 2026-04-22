@@ -1,0 +1,44 @@
+# =============================================================
+# UE5 Project - Git tracks ONLY modified/custom files
+# Everything else can be recreated from:
+#   1. Third Person template (UE 5.7)
+#   2. Game Animation Sample migration
+# =============================================================
+
+# Ignore EVERYTHING by default
+*
+
+# ---- Allow project config ----
+!.gitignore
+!.gitattributes
+!README.md
+!MyProject4.uproject
+
+# ---- Allow ALL C++ source code ----
+!Source/
+!Source/**
+
+# ---- Allow modified blueprints ----
+# SandboxCharacter_CMC (reparented, EventGraph modified)
+!Content/Blueprints/SandboxCharacter_CMC.uasset
+!Content/Blueprints/SandboxCharacter_CMC.uexp
+
+# IMC_Sandbox (WASD remapped + IA_ComboAttack added)
+!Content/Variant_Sandbox/
+!Content/Variant_Sandbox/Input/
+!Content/Variant_Sandbox/Input/IMC_Sandbox.uasset
+!Content/Variant_Sandbox/Input/IMC_Sandbox.uexp
+
+# ---- Allow the test level ----
+!Content/Variant_SideScrolling/
+!Content/Variant_SideScrolling/Lvl_SideScrolling.umap
+!Content/Variant_SideScrolling/Lvl_SideScrolling.uexp
+
+# ---- Exclude build artifacts even if inside allowed folders ----
+Binaries/
+Intermediate/
+DerivedDataCache/
+Saved/
+Build/
+.vs/
+*.sln
