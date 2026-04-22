@@ -22,5 +22,5 @@
 - `Source/` — All C++ source code (SandboxCharacterBase with Wall Jump, Coyote Time, Double Jump, Combo Attack)
 - `MyProject4.uproject` — Plugin dependencies
 - `Content/Blueprints/SandboxCharacter_CMC` — Reparented to C++ base, modified EventGraph
-- `Content/Variant_Sandbox/Input/IMC_Sandbox` — WASD remapped for 2D side-scrolling
+- `Content/Input/IMC_Sandbox` — WASD remapped for 2D side-scrolling
 - `Content/Variant_SideScrolling/Lvl_SideScrolling` — Test level

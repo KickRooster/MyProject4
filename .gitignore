@@ -24,10 +24,9 @@
 !Content/Blueprints/SandboxCharacter_CMC.uexp
 
 # IMC_Sandbox (WASD remapped + IA_ComboAttack added)
-!Content/Variant_Sandbox/
-!Content/Variant_Sandbox/Input/
-!Content/Variant_Sandbox/Input/IMC_Sandbox.uasset
-!Content/Variant_Sandbox/Input/IMC_Sandbox.uexp
+!Content/Input/
+!Content/Input/IMC_Sandbox.uasset
+!Content/Input/IMC_Sandbox.uexp
 
 # ---- Allow the test level ----
 !Content/Variant_SideScrolling/
